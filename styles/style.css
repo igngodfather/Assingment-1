@@ -14,6 +14,9 @@
 .des-color{
     color: #817c7c;
 }
+.last-color{
+    color: #627382;
+}
 
 
 
@@ -35,6 +38,14 @@
     justify-content: space-around;
     text-align: center;
     vertical-align: middle;
+    padding: 16px;
+    
+}
+.nav-button{
+    margin-top: 15px;
+}
+.nav-button a{
+    text-decoration: none;
 }
 .menu ul{
     list-style: none;
@@ -42,6 +53,7 @@
     gap: 32px;
     align-items: center;
     vertical-align: middle;
+    padding: 16px;
 
 }
 .menu ul a{
@@ -55,6 +67,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-top: 20px;
     
 }
 
@@ -90,21 +103,18 @@
     flex-direction: column;
 }
 
-
-.nav-button a{
-    text-decoration: none;
-}
 .banner-button a{
     text-decoration: none;
 }
 .header{
-    max-width: 1600px;
+    width: 100%;
    
 }
 
 /* ,................................. */
 *{
-    max-width: 1600px;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -114,11 +124,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 600px;
-    width: auto;
-    margin: 0 auto;
+
     text-align: center;
-    padding: 115px 120px ;
+    padding: 115px 0px ;
 }
 .banner-capsule{
     border: 1px solid none;
@@ -200,6 +208,8 @@
     display: flex;
     align-items: center;
     justify-content: start;
+    height: 840px;
+    
     
 }
 .content-feature ul{
@@ -218,6 +228,7 @@
 .last-content{
     padding: 80px 40px;
     background-color: #F7F6F2;
+    line-height: 80px;
 }
 .features{
     margin-top: 20px;
@@ -245,6 +256,10 @@
     justify-content: space-between;
     padding: 120px 120px 30px 120px ;
 
+}
+.hr-line{
+    width: 90%;
+    margin: auto;
 }
 .copyright{
     text-align: center;
