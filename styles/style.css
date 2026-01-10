@@ -89,7 +89,6 @@
     cursor: pointer;
     color: #ffffff;
     gap: 3px;
-    cursor: pointer;
 }
 .button-trs{
     display: flex;
@@ -99,7 +98,6 @@
     border: 2px solid white;
     background-color: #46916500;
     padding: 12px 30px;
-    cursor: pointer;
     color: #ffffff;
     gap: 3px;
     cursor: pointer;
@@ -119,7 +117,7 @@
    
 }
 
-/* ,................................. */
+/* ................................. */
 *{
     margin: 0;
     padding: 0;
